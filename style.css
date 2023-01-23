@@ -29,10 +29,14 @@
     border-radius: 15px;
     border-style: ridge;
     border-color: black;
-    font-size: 30px;
-    padding: 20px;
-    text-align: right;
-    
+    font-size: 35px;
+    padding-right: 20px;
+    padding-top: 30px;
+    text-align: right;   
+}
+
+.calculator-display {
+    padding-bottom: 10px;
 }
 
 .button-area {
@@ -59,23 +63,23 @@
 }
 
 .number:hover {
-    transform: scale(.92);
+    transform: scale(.95);
     background-color: rgb(201, 201, 201);
 
 }
 
 .operator:hover {
-    transform: scale(.92);
+    transform: scale(.95);
     background-color: rgb(201, 201, 201);
 }
 
 .clear:hover {
-    transform: scale(.92);
+    transform: scale(.95);
     background-color: rgb(196, 11, 11);
 }
 
 .equals:hover {
-    transform: scale(.92);
+    transform: scale(.95);
     background-color: rgb(7, 192, 22);
 }
 
